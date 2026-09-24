@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seuss & Hip-Hop: Rhythmic Architecture Interactive Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Calibri:wght@400;600;700&family=Georgia:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="app-header">
+    <div class="logo-container">
+      <span class="badge">SEUSS & HIP-HOP</span>
+      <h1>Rhythmic Architecture Studio</h1>
+      <p class="subtitle">A Interactive Methodology for Metrical Analysis, Polyrhythms, & Verse Auditing</p>
+    </div>
+    <nav class="nav-tabs">
+      <button class="nav-btn active" data-tab="series-map">Series Overview</button>
+      <button class="nav-btn" data-tab="scansion-lab">Scansion & RC Calculator</button>
+      <button class="nav-btn" data-tab="beat-grid">16th Beat-Grid Visualizer</button>
+      <button class="nav-btn" data-tab="hyperrhyme">Hyperrhyme Matrix</button>
+      <button class="nav-btn" data-tab="subgenres">Subgenre Flow Engine</button>
+      <button class="nav-btn" data-tab="rubric">30/30/25/15 Rubric</button>
+    </nav>
+  </header>
+
+  <main class="app-container">
+
+    <!-- Tab 1: Series Map -->
+    <section id="series-map" class="tab-content active">
+      <div class="card hero-card">
+        <h2>Five-Book Master Series Architecture</h2>
+        <p>Explore the governing system, chapter contents, cognitive science foundations, and continuity ledgers across the 5-volume textbook series.</p>
+        <div class="stats-row">
+          <div class="stat-box">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Volumes</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">53</span>
+            <span class="stat-label">Total Chapters</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Audit Accuracy</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">3-Tier</span>
+            <span class="stat-label">Science Firewall</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-grid">
+        <!-- Book 1 -->
+        <div class="book-card" onclick="selectBook(1)">
+          <div class="book-badge">Book 1</div>
+          <h3>Anapestic Architecture</h3>
+          <p class="book-sub">Mapping the Narrative Engine</p>
+          <p class="book-desc">Meter, scansion manual, 4 line-shapes, Cognitive Load Theory, Extraneous Load Filter, 16-line mnemonic.</p>
+          <div class="book-footer">
+            <span class="status-tag complete">13 Chapters Complete</span>
+          </div>
+        </div>
+
+        <!-- Book 2 -->
+        <div class="book-card" onclick="selectBook(2)">
+          <div class="book-badge">Book 2</div>
+          <h3>From Single Pulse to Layered Groove</h3>
+          <p class="book-sub">Designing Polyrhythmic Flows</p>
+          <p class="book-desc">16th beat-grid transcription, anacrusis, syncopation, isochrony, Accumulation Method, Grit Gospel 16-bar arc.</p>
+          <div class="book-footer">
+            <span class="status-tag synopsis">Full Synopsis & Manuscript</span>
+          </div>
+        </div>
+
+        <!-- Book 3 -->
+        <div class="book-card" onclick="selectBook(3)">
+          <div class="book-badge">Book 3</div>
+          <h3>Hyperrhyme Mapping</h3>
+          <p class="book-sub">Encoding Semantic Density</p>
+          <p class="book-desc">Phonological priming, Hyperrhyme Matrix, Phonological Loop, internal rhymes, Chronometric System verse.</p>
+          <div class="book-footer">
+            <span class="status-tag synopsis">Full Synopsis & Manuscript</span>
+          </div>
+        </div>
+
+        <!-- Book 4 -->
+        <div class="book-card" onclick="selectBook(4)">
+          <div class="book-badge">Book 4</div>
+          <h3>Subgenre Applications</h3>
+          <p class="book-sub">Metrical Hooks Across Hip-Hop</p>
+          <p class="book-desc">Boom-Bap (Stabilizer), Drill (Subverter / Melancholic Meter), Trap (Compressor), Metrical Hooks, 3-way comparative grid.</p>
+          <div class="book-footer">
+            <span class="status-tag synopsis">Full Synopsis & Manuscript</span>
+          </div>
+        </div>
+
+        <!-- Book 5 -->
+        <div class="book-card" onclick="selectBook(5)">
+          <div class="book-badge">Book 5</div>
+          <h3>Instructor's Chapter</h3>
+          <p class="book-sub">Designing a 6-Week Workshop</p>
+          <p class="book-desc">6-week curriculum, lesson plans, 30/30/25/15 rubric, UDL integration, Seuss ethics module.</p>
+          <div class="book-footer">
+            <span class="status-tag synopsis">Full Synopsis & Manuscript</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Book Detail Drawer -->
+      <div id="book-detail" class="card detail-card" style="display:none;">
+        <div class="detail-header">
+          <h3 id="detail-title">Select a Book above</h3>
+          <button class="close-btn" onclick="closeBookDetail()">✕</button>
+        </div>
+        <div id="detail-content"></div>
+      </div>
+    </section>
+
+    <!-- Tab 2: Scansion & RC Calculator -->
+    <section id="scansion-lab" class="tab-content">
+      <div class="card">
+        <h2>Scansion & Rhythmic Coherence (RC<sub>foot</sub>) Calculator</h2>
+        <p>Type or paste a 4-line verse in anapestic meter. Enter stress marks (`x` for unstressed, `/` for stressed) and foot boundaries (`|`). The system automatically calculates your RC<sub>foot</sub> score and verifies the Metrical Mandate (≥ 80%).</p>
+
+        <div class="presets-row">
+          <span>Presets:</span>
+          <button class="preset-btn" onclick="loadScansionPreset('specimen')">Specimen Couplet (100%)</button>
+          <button class="preset-btn" onclick="loadScansionPreset('substituted')">Iambic Substituted (100%)</button>
+          <button class="preset-btn" onclick="loadScansionPreset('catalectic')">Terminal Catalexis (100%)</button>
+          <button class="preset-btn" onclick="loadScansionPreset('disfluent')">Disfluent Line (25% Fail)</button>
+        </div>
+
+        <div class="scansion-editor">
+          <div class="line-input-group">
+            <label>Line 1 Text:</label>
+            <input type="text" id="line1-text" value="In the morning I walk to the bridge by the sea,">
+            <label>Scansion Pattern (`x`, `/`, `|`):</label>
+            <input type="text" id="line1-mark" value="x x / | x x / | x x / | x x /" oninput="calculateRC()">
+            <div class="line-meta">
+              <span>Status Tag:</span>
+              <select id="line1-tag" onchange="calculateRC()">
+                <option value="BASELINE">BASELINE (Acatalectic)</option>
+                <option value="SUBSTITUTION">SUBSTITUTION (Iambic)</option>
+                <option value="INVERSION">INVERSION (Trochaic)</option>
+                <option value="CATALEXIS">CATALEXIS (Rest)</option>
+                <option value="ERROR">ERROR / DISFLUENCY</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="line-input-group">
+            <label>Line 2 Text:</label>
+            <input type="text" id="line2-text" value="And the waves have a word that is meant just for me.">
+            <label>Scansion Pattern:</label>
+            <input type="text" id="line2-mark" value="x x / | x x / | x x / | x x /" oninput="calculateRC()">
+            <div class="line-meta">
+              <span>Status Tag:</span>
+              <select id="line2-tag" onchange="calculateRC()">
+                <option value="BASELINE">BASELINE (Acatalectic)</option>
+                <option value="SUBSTITUTION">SUBSTITUTION (Iambic)</option>
+                <option value="INVERSION">INVERSION (Trochaic)</option>
+                <option value="CATALEXIS">CATALEXIS (Rest)</option>
+                <option value="ERROR">ERROR / DISFLUENCY</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="line-input-group">
+            <label>Line 3 Text:</label>
+            <input type="text" id="line3-text" value="The waves have a word that is meant just for me,">
+            <label>Scansion Pattern:</label>
+            <input type="text" id="line3-mark" value="x / | x x / | x x / | x x /" oninput="calculateRC()">
+            <div class="line-meta">
+              <span>Status Tag:</span>
+              <select id="line3-tag" onchange="calculateRC()">
+                <option value="SUBSTITUTION" selected>SUBSTITUTION (Iambic)</option>
+                <option value="BASELINE">BASELINE (Acatalectic)</option>
+                <option value="INVERSION">INVERSION (Trochaic)</option>
+                <option value="CATALEXIS">CATALEXIS (Rest)</option>
+                <option value="ERROR">ERROR / DISFLUENCY</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="line-input-group">
+            <label>Line 4 Text:</label>
+            <input type="text" id="line4-text" value="In the morning I walk to the bridge by sea ∧">
+            <label>Scansion Pattern:</label>
+            <input type="text" id="line4-mark" value="x x / | x x / | x x / | x / ∧" oninput="calculateRC()">
+            <div class="line-meta">
+              <span>Status Tag:</span>
+              <select id="line4-tag" onchange="calculateRC()">
+                <option value="CATALEXIS" selected>CATALEXIS (Rest)</option>
+                <option value="BASELINE">BASELINE (Acatalectic)</option>
+                <option value="SUBSTITUTION">SUBSTITUTION (Iambic)</option>
+                <option value="INVERSION">INVERSION (Trochaic)</option>
+                <option value="ERROR">ERROR / DISFLUENCY</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Audit Scorecard Result -->
+        <div id="rc-scorecard" class="scorecard-box">
+          <div class="score-header">
+            <h3>Rhythmic Coherence Score: <span id="rc-percentage" class="pass">100%</span></h3>
+            <span id="rc-verdict" class="badge-verdict pass">PASSED METRICAL MANDATE</span>
+          </div>
+          <div class="score-breakdown">
+            <p><strong>Conforming Feet:</strong> <span id="feet-conforming">12</span> / 16</p>
+            <p><strong>Declared Substitutions:</strong> <span id="feet-declared">4</span> / 16</p>
+            <p><strong>Undeclared Disfluencies:</strong> <span id="feet-disfluent">0</span> / 16</p>
+            <p class="formula-note">Formula: RC<sub>foot</sub> = (Conforming + Declared) / Total Feet × 100% (Pass threshold: ≥ 80%)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 3: 16th Beat-Grid Visualizer -->
+    <section id="beat-grid" class="tab-content">
+      <div class="card">
+        <h2>16-Subdivision Monospace Beat-Grid Visualizer</h2>
+        <p>Book 2 translates speech feet (`x x /`) onto a 16th-note musical grid (1-e-&-a 2-e-&-a 3-e-&-a 4-e-&-a). Click subdivisions to toggle stresses, test metronome tempo, or switch between Grit Gospel acts.</p>
+
+        <div class="grid-controls">
+          <div class="control-item">
+            <label>Act Selection:</label>
+            <select id="grid-act-select" onchange="loadGridAct()">
+              <option value="act1">Grit Gospel Act I: Stability (Bar 1)</option>
+              <option value="act2">Grit Gospel Act II: Tension & Syncopation (Bar 6)</option>
+              <option value="act3">Grit Gospel Act III: Accumulation Double-Time (Bar 9)</option>
+              <option value="act4">Grit Gospel Act IV: Resolution (Bar 16)</option>
+            </select>
+          </div>
+          <div class="control-item">
+            <label>Tempo (BPM): <span id="bpm-val">90</span></label>
+            <input type="range" id="bpm-slider" min="70" max="150" value="90" oninput="document.getElementById('bpm-val').innerText = this.value">
+          </div>
+          <button class="play-btn" onclick="togglePlayGrid()">▶ Play Pulse</button>
+        </div>
+
+        <div class="beat-grid-table-wrapper">
+          <table class="grid-table" id="interactive-beat-grid">
+            <thead>
+              <tr>
+                <th>Subdivision</th>
+                <th>01</th><th>02</th><th>03</th><th>04</th>
+                <th>05</th><th>06</th><th>07</th><th>08</th>
+                <th>09</th><th>10</th><th>11</th><th>12</th>
+                <th>13</th><th>14</th><th>15</th><th>16</th>
+              </tr>
+              <tr>
+                <th>Beat</th>
+                <th colspan="4" class="beat-hdr">Beat 1 (1-e-&-a)</th>
+                <th colspan="4" class="beat-hdr">Beat 2 (2-e-&-a)</th>
+                <th colspan="4" class="beat-hdr">Beat 3 (3-e-&-a)</th>
+                <th colspan="4" class="beat-hdr">Beat 4 (4-e-&-a)</th>
+              </tr>
+            </thead>
+            <tbody id="grid-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grid-legend">
+          <span class="legend-item"><span class="swatch accent"></span> Downbeat Stress (1, 5, 9, 13)</span>
+          <span class="legend-item"><span class="swatch runup"></span> Anacrusis Run-up</span>
+          <span class="legend-item"><span class="swatch offbeat"></span> Syncopated Off-Beat</span>
+          <span class="legend-item"><span class="swatch rest"></span> Silent Rest (`∧`)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 4: Hyperrhyme Matrix Auditor -->
+    <section id="hyperrhyme" class="tab-content">
+      <div class="card">
+        <h2>Hyperrhyme Matrix Technical Auditor</h2>
+        <p>Book 3 defines a **Hyperrhyme** as a multisyllabic rhyme matching across 3 or more syllables ($\ge 3$). Audit candidate hyperrhymes against the three criteria of the Hyperrhyme Matrix.</p>
+
+        <div class="matrix-auditor">
+          <div class="input-row">
+            <div class="field">
+              <label>Word / Segment A:</label>
+              <input type="text" id="hr-seg-a" value="generously (/dʒɛn-ə-rəs-li/)">
+            </div>
+            <div class="field">
+              <label>Word / Segment B:</label>
+              <input type="text" id="hr-seg-b" value="courageously (/kə-reɪ-dʒəs-li/)">
+            </div>
+            <button class="audit-btn" onclick="auditHyperrhyme()">Audit Matrix</button>
+          </div>
+
+          <div class="matrix-checklist">
+            <div class="criterion-box pass" id="crit-metrical">
+              <h4>1. Metrical Fidelity</h4>
+              <p>Do both segments preserve natural speech stress inside the anapestic grid?</p>
+              <span class="crit-tag">PASS (4 Syllables, Primary Stress Syl 1)</span>
+            </div>
+            <div class="criterion-box pass" id="crit-acoustic">
+              <h4>2. Acoustic Precision</h4>
+              <p>Do syllables 1, 2, 3, and 4 maintain matching vowel and consonant phonemes?</p>
+              <span class="crit-tag">PASS (Tight Near-Rhyme Match /dʒəs-li/)</span>
+            </div>
+            <div class="criterion-box pass" id="crit-semantic">
+              <h4>3. Semantic Variation</h4>
+              <p>Do the two rhyming elements belong to distinct semantic domains?</p>
+              <span class="crit-tag">PASS (Altruism vs. Valor)</span>
+            </div>
+          </div>
+
+          <div class="matrix-summary" id="matrix-result-summary">
+            <h3>Matrix Evaluation Result: <span class="pass">VALID HYPERRHYME (4 Syllables)</span></h3>
+            <p><strong>Chronometric System Breakdown:</strong> Phoneme sequence matching across `/dʒɛn-ə-rəs-li/` and `/kə-reɪ-dʒəs-li/`. Both elements satisfy metrical fidelity, acoustic precision, and semantic variation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 5: Subgenre Flow Engine -->
+    <section id="subgenres" class="tab-content">
+      <div class="card">
+        <h2>Subgenre Flow Engine: Comparative 3-Way Grid</h2>
+        <p>Book 4 treats the Anapestic Anchor as an analytical lens across three subgenre roles: Boom-Bap (**Stabilizer**), Drill (**Subverter**), and Trap (**Compressor**). Select a subgenre to observe how the *exact same 12-syllable text skeleton* behaves under different production beats.</p>
+
+        <div class="subgenre-tabs">
+          <button class="sub-btn active" onclick="switchSubgenre('boombap')">Boom-Bap (Stabilizer)</button>
+          <button class="sub-btn" onclick="switchSubgenre('drill')">Drill (Subverter)</button>
+          <button class="sub-btn" onclick="switchSubgenre('trap')">Trap (Compressor)</button>
+        </div>
+
+        <div id="subgenre-display" class="subgenre-display-card">
+          <div class="sub-hdr">
+            <h3 id="sub-title">Boom-Bap: Primary Stabilizer</h3>
+            <span id="sub-tempo" class="sub-badge">Tempo: 90 BPM (Heavy Swing)</span>
+          </div>
+          <p id="sub-desc">Locks verse into the 90-BPM kick-snare pocket. Primary stresses land strictly on downbeats (1, 2, 3, 4), maximizing head-nod stability and narrative clarity.</p>
+
+          <div class="sub-skeleton-box">
+            <h4>Canonical Skeleton Execution:</h4>
+            <p class="skeleton-text"><em>"In the dark of the night I was looking for light."</em></p>
+            <div id="sub-scansion-code" class="code-box">
+              In the DARK | of the NIGHT | I was LOOK | ing for LIGHT<br>
+               x  x  /    |  x  x  /     |  x  x  /    |  x   x   /<br>
+              [Status: BASELINE STABILIZER - 100% On-Beat Downbeats]
+            </div>
+          </div>
+
+          <div class="sub-features">
+            <div class="feat-box">
+              <strong>Functional Role:</strong> <span id="sub-role">Stabilizer</span>
+            </div>
+            <div class="feat-box">
+              <strong>Delivery Mechanic:</strong> <span id="sub-mech">On-Beat Downbeats, Spacious Pocket</span>
+            </div>
+            <div class="feat-box">
+              <strong>Aesthetic Effect:</strong> <span id="sub-effect">Nostalgic, Authoritative, Head-Nod Groove</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 6: 30/30/25/15 Rubric -->
+    <section id="rubric" class="tab-content">
+      <div class="card">
+        <h2>30/30/25/15 Master Assessment Rubric</h2>
+        <p>Interactive grading calculator for instructors, educators, and self-auditing students. Adjust sliders across the four weighted categories to calculate total capstone performance score.</p>
+
+        <div class="rubric-calculator">
+          <!-- Category 1 -->
+          <div class="rubric-row">
+            <div class="rubric-info">
+              <h3>1. Metrical Fidelity & Grid Coherence (30%)</h3>
+              <p>RC<sub>foot</sub> ≥ 80% and RC<sub>grid</sub> ≥ 80%; clean scansion ladders and 16th grid tables; no unbuffered stress clashes.</p>
+            </div>
+            <div class="rubric-score">
+              <input type="range" min="0" max="30" value="28" id="r1-slider" oninput="updateRubricScore()">
+              <span id="r1-val" class="score-display">28 / 30</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="rubric-row">
+            <div class="rubric-info">
+              <h3>2. Analytical Depth & Structural Control (30%)</h3>
+              <p>Hyperrhyme Matrix compliance ($\ge 3$ syllables); cognitive load balancing; complete master audit logs.</p>
+            </div>
+            <div class="rubric-score">
+              <input type="range" min="0" max="30" value="27" id="r2-slider" oninput="updateRubricScore()">
+              <span id="r2-val" class="score-display">27 / 30</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="rubric-row">
+            <div class="rubric-info">
+              <h3>3. Portability & Cross-Genre Transfer (25%)</h3>
+              <p>Versatility across Boom-Bap, Drill, and Trap delivery modes; 3-way adaptation log completion.</p>
+            </div>
+            <div class="rubric-score">
+              <input type="range" min="0" max="25" value="24" id="r3-slider" oninput="updateRubricScore()">
+              <span id="r3-val" class="score-display">24 / 25</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="rubric-row">
+            <div class="rubric-info">
+              <h3>4. Equity, Accessibility & Ethical Reflection (15%)</h3>
+              <p>Ethical reflection on tool vs. ideology (Seuss legacy); UDL alignment; absence of slurs or caricatures.</p>
+            </div>
+            <div class="rubric-score">
+              <input type="range" min="0" max="15" value="15" id="r4-slider" oninput="updateRubricScore()">
+              <span id="r4-val" class="score-display">15 / 15</span>
+            </div>
+          </div>
+
+          <!-- Total Scorecard -->
+          <div class="rubric-total-card">
+            <div class="total-header">
+              <h3>Total Capstone Score: <span id="rubric-total" class="pass">94%</span></h3>
+              <span id="rubric-grade" class="badge-grade pass">EXEMPLARY (MASTERY)</span>
+            </div>
+            <p class="rubric-disclaimer">Note: The 30/30/25/15 rubric is a pedagogical evaluation framework created by this series to make evaluation explicit and reproducible across instructors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>Seuss & Hip-Hop Interactive Studio  |  Audited Repository & Interactive Methodology  |  Governed by <code>00-series-bible.md</code></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
