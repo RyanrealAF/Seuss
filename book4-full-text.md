@@ -1,36 +1,41 @@
 # Book 4: Anapestic Anchor and Metrical Hooks Across Hip-Hop Subgenres
 
+*Document Classification: FULL-TEXT SYNOPSIS & CHAPTER MANUSCRIPTS*
+*Governing Document: `00-series-bible.md` (v1.0) | Continuity Ledger: `book4-ledger.md`*
+
+---
+
 ### Chapter 1: The Anchor Across Genres: Three Functional Roles
 #### 1.1 The Portable Engine in New Contexts
-The Anapestic Anchor (`x x /` × 4) operates across distinct hip-hop subgenres in three primary functional roles: Boom-Bap (**Stabilizer**), Drill (**Subverter**), and Trap (**Compressor**). A **Metrical Hook** is the retrievable quality of predictable meter used to make content stick across subgenres.
-#### 1.2 Functional Role Definitions
-- **Stabilizer:** Locking verse into the 90-BPM swing pocket.
-- **Subverter:** Bending rhythm against dark production to create menace.
-- **Compressor:** Squeezing syllables into rapid triplet subdivisions.
-#### 1.3 Theory: Subgenre Adaptation Models
-Subgenres adapt metrical schemas to align with distinct tempo and snare placements.
+In this series' analytical model, the Anapestic Anchor (`x x /` × 4) is treated as operating across distinct hip-hop subgenres in three primary functional roles: Boom-Bap (**Stabilizer**), Drill (**Subverter**), and Trap (**Compressor**). A **Metrical Hook** is our framework term for the retrievable quality of predictable meter used to make content stick across subgenres.
+#### 1.2 Functional Role Definitions (Analytical Lenses)
+- **Stabilizer:** Treating the meter as locking verse into the 90-BPM swing pocket.
+- **Subverter:** Treating the meter as bending rhythm against dark production to create menace.
+- **Compressor:** Treating the meter as squeezing syllables into rapid triplet subdivisions.
+#### 1.3 Theory: Research, Established Theory, and Our Model
+*Firewall Statement:* Research demonstrates that neural entrainment aligns with periodic auditory pulses. Established musicological theory proposes that genres organize rhythm around tempo and snare placement. Our framework interprets subgenre delivery styles through these three functional roles.
 #### 1.4 Worked Examples: Comparative Skeleton Overview
 Tracing the same 12-syllable skeleton across Boom-Bap, Drill, and Trap environments.
 #### 1.5 Exercise: Role Classification
 Classify 3 performance snippets by their functional anchor role.
 #### 1.6 Common Mistakes
-Treating subgenre roles as rigid musical genres rather than functional delivery modes.
+Asserting that hip-hop subgenres objectively possess these three properties rather than treating them as analytical lenses.
 #### 1.7 Chapter Summary
-The Anapestic Anchor functions as Stabilizer, Subverter, or Compressor depending on subgenre context.
+The Anapestic Anchor functions as Stabilizer, Subverter, or Compressor within our series' interpretive model.
 #### 1.8 Cross-References
 $\rightarrow$ Book 1, Ch. 1; Book 4, Ch. 6.
 #### 1.9 Evidence Notes & Flags
-- Claim: Genre functional roles | Type (c) Series framework (Bible §3.5).
+- Claim: Genre functional roles | Type (c) Series framework model (Bible §3.5).
 
 ---
 
 ### Chapter 2: Boom-Bap: The Anchor as Primary Stabilizer
 #### 2.1 The 90-BPM Swing Pocket
-Classic Boom-Bap (85–95 BPM) relies on heavy kick-snare swing where the Anapestic Anchor acts as a **Stabilizer**.
+Classic Boom-Bap (85–95 BPM) relies on heavy kick-snare swing where our model treats the Anapestic Anchor as a **Stabilizer**.
 #### 2.2 On-Beat Acatalectic Anchoring
 Boom-Bap MCs place primary stresses directly on downbeats (1, 2, 3, 4), maximizing $RC_{grid}$ stability.
-#### 2.3 Theory: Pocket Entrainment in Boom-Bap
-On-beat landings in 90-BPM tempos provide optimal entrainment for narrative storytelling.
+#### 2.3 Theory: Research vs. Framework Interpretation
+*Firewall Statement:* Research demonstrates that regular beats lower parsing effort. Established theory proposes that stress-timed speech aligns with musical downbeats. Our model treats Boom-Bap as stabilizing narrative storytelling.
 #### 2.4 Worked Examples: Boom-Bap Grid Transcription
 16th-subdivision grid mapping of a Boom-Bap verse showing 100% acatalectic alignment.
 #### 2.5 Exercise: Boom-Bap Stabilizer Drill
@@ -38,21 +43,21 @@ Draft a 4-bar Boom-Bap verse locked strictly into the 90-BPM kick-snare pocket.
 #### 2.6 Common Mistakes
 Over-syncopating in Boom-Bap until the head-nod pocket is lost.
 #### 2.7 Chapter Summary
-Boom-Bap uses the Anapestic Anchor as a Stabilizer to lock narrative lyrics into a 90-BPM pocket.
+Boom-Bap uses the Anapestic Anchor as a Stabilizer within our analytical model.
 #### 2.8 Cross-References
 $\rightarrow$ Book 2, Ch. 1; Book 4, Ch. 1.
 #### 2.9 Evidence Notes & Flags
-- Claim: Boom-Bap stabilizer mechanics | Type (c) Series framework.
+- Claim: Boom-Bap stabilizer mechanics | Type (c) Series framework model.
 
 ---
 
 ### Chapter 3: Drill: The Anchor as Melancholic Subverter
 #### 3.1 The 140-BPM Sliding Snare Environment
-UK and Chicago/Brooklyn Drill (140–145 BPM) feature sliding 808s and off-beat snares. Here the Anchor operates as a **Subverter**.
+UK and Chicago/Brooklyn Drill (140–145 BPM) feature sliding 808s and off-beat snares. Here our model treats the Anchor as a **Subverter**.
 #### 3.2 Melancholic Meter
-**Melancholic Meter** flattens the anapest's buoyant lift through monotone vocal delivery and spondaic stress (`/ /`).
-#### 3.3 Theory: Rhythmic Subversion
-Subverting a childhood-familiar rhythm creates stark contrast against grim narrative content.
+**Melancholic Meter** is our framework term for flattening the anapest's buoyant lift through monotone vocal delivery and spondaic stress (`/ /`).
+#### 3.3 Theory: Research vs. Model
+*Firewall Statement:* Research demonstrates that pitch variation (intonation contour) signals emotion. Established theory proposes that monotone delivery reduces affective warmth. Our model interprets Drill as subverting buoyant meter.
 #### 3.4 Worked Examples: Melancholic Meter Scansion
 Scanning a Drill verse showing monotone pitch flattening and spondaic demotion.
 #### 3.5 Exercise: Drill Subverter Drill
@@ -60,43 +65,43 @@ Draft a 4-bar Drill verse applying Melancholic Meter to an anapestic skeleton.
 #### 3.6 Common Mistakes
 Delivering Drill with a bouncy, cheerful nursery intonation.
 #### 3.7 Chapter Summary
-Drill subverts the buoyant anapest through Melancholic Meter and monotone delivery.
+Drill subverts the buoyant anapest through Melancholic Meter within our interpretive framework.
 #### 3.8 Cross-References
 $\rightarrow$ Book 1, Ch. 6; Book 4, Ch. 4.
 #### 3.9 Evidence Notes & Flags
-- Claim: Melancholic Meter & Subverter role | Type (c) Series framework.
+- Claim: Melancholic Meter & Subverter role | Type (c) Series framework model.
 
 ---
 
 ### Chapter 4: The Weaponized Satisfaction Cycle in Drill
 #### 4.1 Pairing Buoyancy with Distress
-The **Weaponized Satisfaction Cycle** pairs a rewarding, predictable rhythm with harrowing or distressing narrative content.
+The **Weaponized Satisfaction Cycle** is our framework term for pairing a rewarding, predictable rhythm with harrowing or distressing narrative content.
 #### 4.2 Resolving Issue I-11: Cognitive Dissonance Metaphor
-Resolving Source-Issue I-11: **Cognitive Dissonance** is defined here strictly as a **series metaphor** for the aesthetic clash between buoyant meter and heavy content, not the social psychology term for conflicting beliefs.
-#### 4.3 Theory: Prediction Error in Dark Contexts
-The brain receives a satisfaction signal from metrical prediction while receiving threat signals from lyric content, producing tension.
+Resolving Source-Issue I-11: **Cognitive Dissonance** is defined strictly as an **analytical metaphor** for the aesthetic clash between buoyant meter and heavy content, not a neurological or social psychology finding about Drill listeners.
+#### 4.3 Theory: The 3-Sentence Firewall
+*Firewall Statement:* Research demonstrates that prediction error triggers attention spikes. Established theory proposes that conflicting sensory inputs create cognitive tension. Our framework interprets this aesthetic clash in Drill as a "weaponized satisfaction cycle."
 #### 4.4 Worked Examples: Analysis of Weaponized Lines
-Analyzing a 4-bar Drill verse demonstrating weaponized satisfaction.
+Analyzing a 4-bar Drill verse demonstrating weaponized satisfaction as an analytical lens.
 #### 4.5 Exercise: Weaponized Cycle Analysis
-Audit a dark verse to state where rhythmic satisfaction clashes with semantic distress.
+Audit a dark verse to state where rhythmic satisfaction clashes with semantic distress within our model.
 #### 4.6 Common Mistakes
-Misusing psychological terms without labeling them as series metaphors.
+Treating "weaponized satisfaction cycle" as a neurological claim about Drill artists or listeners.
 #### 4.7 Chapter Summary
-The weaponized satisfaction cycle uses metrical predictability to carry heavy content, creating aesthetic cognitive dissonance.
+The weaponized satisfaction cycle operates as an analytical lens describing the clash between buoyant meter and heavy content.
 #### 4.8 Cross-References
 $\rightarrow$ Book 1, Ch. 9; Book 4, Ch. 3.
 #### 4.9 Evidence Notes & Flags
-- Claim: Weaponized satisfaction cycle & cognitive dissonance metaphor | Type (c) Series framework (Bible §8, I-11).
+- Claim: Weaponized satisfaction cycle & cognitive dissonance metaphor | Type (c) Series framework model (Bible §8, I-11).
 
 ---
 
 ### Chapter 5: Trap: The Anchor as Dynamic Compressor
 #### 5.1 The Triplet Hi-Hat Matrix
-Trap (130–150 BPM) uses rapid triplet hi-hat rolls (12th and 24th subdivisions) where the Anchor functions as a **Compressor**.
+Trap (130–150 BPM) uses rapid triplet hi-hat rolls (12th and 24th subdivisions) where our model treats the Anchor as a **Compressor**.
 #### 5.2 Syllable Compression and Iambic Pickups
 Trap MCs squeeze 14–16 syllables into a measure using iambic pickups and rapid triplet subdivisions.
-#### 5.3 Theory: Sub-Beat Subdivision and Kinetic Energy
-Packing syllables into sub-beat subdivisions increases perceived kinetic energy without altering tempo.
+#### 5.3 Theory: Research vs. Model
+*Firewall Statement:* Research demonstrates that high syllable rates increase information processing density. Established theory proposes that sub-beat subdivisions increase perceived kinetic speed. Our model treats Trap as compressing the anapestic skeleton.
 #### 5.4 Worked Examples: Trap Triplet Grid Transcription
 Mapping a Trap verse onto a 12/24 subdivision grid showing syllable compression.
 #### 5.5 Exercise: Trap Compression Drill
@@ -104,17 +109,17 @@ Compress a 12-syllable anapestic line into a triplet hi-hat grid measure.
 #### 5.6 Common Mistakes
 Losing vocal articulation during high-speed triplet compression.
 #### 5.7 Chapter Summary
-Trap uses the Anapestic Anchor as a Compressor, packing rapid syllables into triplet subdivisions.
+Trap uses the Anapestic Anchor as a Compressor within our analytical model.
 #### 5.8 Cross-References
 $\rightarrow$ Book 2, Ch. 5; Book 4, Ch. 1.
 #### 5.9 Evidence Notes & Flags
-- Claim: Trap compressor mechanics | Type (c) Series framework.
+- Claim: Trap compressor mechanics | Type (c) Series framework model.
 
 ---
 
 ### Chapter 6: Subgenre Comparative Analysis (3-Way Grid)
 #### 6.1 The Master 3-Way Comparative Grid
-Comparing how Boom-Bap, Drill, and Trap execute the *exact same 12-syllable text skeleton*.
+Comparing how Boom-Bap, Drill, and Trap execute the *exact same 12-syllable text skeleton* within our model.
 #### 6.2 Skeleton Execution Across 3 Subgenres
 Text: *In the dark of the night I was looking for light.*
 - **Boom-Bap:** 90 BPM, on-beat downbeats, heavy swing.
@@ -129,11 +134,11 @@ Adapt an original 4-line couplet into all three subgenre delivery styles.
 #### 6.6 Common Mistakes
 Failing to adjust delivery dynamics when moving across subgenre production tracks.
 #### 6.7 Chapter Summary
-The same anapestic skeleton adapts cleanly across Boom-Bap, Drill, and Trap through genre-specific delivery mechanics.
+The same anapestic skeleton adapts cleanly across Boom-Bap, Drill, and Trap within our comparative analytical framework.
 #### 6.8 Cross-References
 $\rightarrow$ Book 4, Ch. 2–5.
 #### 6.9 Evidence Notes & Flags
-- Claim: 3-way subgenre comparative framework | Type (c) Series framework.
+- Claim: 3-way subgenre comparative framework | Type (c) Series framework model.
 
 ---
 
@@ -163,11 +168,11 @@ $\rightarrow$ Book 1, Evidence Notes; Book 5, Ethics.
 
 ### Chapter 8: Metrical Hooks and Lyric Memorability
 #### 8.1 The Anatomy of a Metrical Hook
-A **Metrical Hook** is the memorable, sticky quality created when a predictable meter intersects with a strong melodic or rhythmic cadence.
+A **Metrical Hook** is our series term for the memorable, sticky quality created when a predictable meter intersects with a strong melodic or rhythmic cadence.
 #### 8.2 Dual-Coding in Subgenre Hooks
 Combining metrical predictability with subgenre production elements creates multi-channel memory consolidation.
-#### 8.3 Theory: Retrieval Efficiency Across Production Styles
-Metrical hooks lower retrieval effort, making chorus and verse lines instant audience sing-alongs.
+#### 8.3 Theory: Research vs. Model
+*Firewall Statement:* Research demonstrates that dual-coded information increases retrieval probability. Established theory proposes that rhythmic cues lower retrieval effort. Our framework treats metrical hooks as accelerating recall across subgenres.
 #### 8.4 Worked Examples: Metrical Hook Scansion
 Scanning a subgenre chorus hook to highlight its $RC_{grid}$ stability.
 #### 8.5 Exercise: Metrical Hook Design Drill
@@ -175,11 +180,11 @@ Design a 2-line metrical hook optimized for a Trap or Boom-Bap chorus.
 #### 8.6 Common Mistakes
 Writing overly complex, non-repetitive hooks that fail to establish neural entrainment.
 #### 8.7 Chapter Summary
-Metrical hooks leverage predictable meter and production cues to maximize lyric recall.
+Metrical hooks leverage predictable meter and production cues within our analytical framework.
 #### 8.8 Cross-References
 $\rightarrow$ Book 1, Ch. 12; Book 4, Ch. 1.
 #### 8.9 Evidence Notes & Flags
-- Claim: Metrical Hook framework | Type (c) Series framework.
+- Claim: Metrical Hook framework | Type (c) Series framework model.
 
 ---
 
@@ -219,8 +224,8 @@ Perform a full Book 1–4 audit on a 16-bar original verse.
 #### 10.6 Common Mistakes
 Treating Book 4 subgenre roles as separate from Book 1–3 cognitive foundations.
 #### 10.7 Chapter Summary
-Book 4 demonstrates the anchor's subgenre versatility, handing off to Book 5's workshop curriculum.
+Book 4 demonstrates the anchor's subgenre versatility within our model, handing off to Book 5's workshop curriculum.
 #### 10.8 Cross-References
 $\rightarrow$ Book 5, Weeks 1–6.
 #### 10.9 Evidence Notes & Flags
-- Claim: Series synthesis and handoff | Type (c) Series framework.
+- Claim: Series synthesis and handoff | Type (c) Series framework model.

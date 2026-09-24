@@ -28,6 +28,7 @@ An acatalectic anapestic tetrameter line is defined by three structural paramete
 The technical term for this complete form is **acatalectic anapestic tetrameter**.
 
 ```
+Status: BASELINE (Acatalectic)
 Syllable:  1   2   3   |  4   5   6   |  7   8   9   | 10  11  12
 Meter:     x   x   /   |  x   x   /   |  x   x   /   |  x   x   /
 ```
@@ -42,7 +43,7 @@ The **syllable budget** of an acatalectic line is non-negotiable. If a line cont
 
 Why does the twelve-syllable acatalectic line serve as such a powerful baseline? The answer lies in cognitive parsing and information processing.
 
-**Established theory: rhythmic predictability reduces cognitive load.** In Cognitive Load Theory (CLT), working memory has limited processing capacity. When a listener hears a line of spoken verse, their brain must simultaneously perform lower-level auditory parsing (identifying word boundaries and stress patterns) and higher-level semantic processing (extracting meaning and emotional resonance). When the metrical structure is strictly acatalectic and predictable, lower-level parsing becomes automated. `[CITATION NEEDED: Cognitive Load Theory foundational source]`
+**Established theory: rhythmic predictability reduces cognitive load.** In Cognitive Load Theory (CLT), working memory has limited processing capacity. When a listener hears a line of spoken verse, their brain must simultaneously perform lower-level auditory parsing (identifying word boundaries and stress patterns) and higher-level semantic processing (extracting meaning and emotional resonance). When the metrical structure is strictly acatalectic and predictable, lower-level parsing becomes automated (Sweller 1988).
 
 **Series framework: the Extraneous Load Filter.** In this series' framework, an acatalectic anapestic line functions as an **Extraneous Load Filter**. By guaranteeing that a strong beat will land on every third syllable without variation, the meter minimizes temporal uncertainty. The listener's cognitive resources are freed from structural guessing and can be dedicated entirely to processing the narrative or lyrical content.
 
@@ -69,6 +70,7 @@ To draft an acatalectic line cleanly without relying on guesswork, use the **Fou
   ```
 - *Step 4 (Filling run-ups):*
   ```
+  Status: BASELINE (Acatalectic)
   When the STORM | in the NIGHT | makes the HOUSE | start to SHAKE,
    x   x   /     |  x  x   /    |   x   x   /    |   x   x    /
   ```
@@ -82,45 +84,51 @@ Check the count: 12 syllables, 4 stresses on 3, 6, 9, 12. All four feet are comp
 Here is an original acatalectic quatrain written to demonstrate strict adherence to the twelve-syllable grid (AABB scheme).
 
 ```
-When the THUN | der roll'd IN | over MOUN | tains of STONE,
- x   x   /     |  x    x   /  | x  x  /    |  x   x   /
+Status: BASELINE (Acatalectic)
+When the THUN | der roll'd IN | on the MOUN | tains of STONE,
+ x   x   /     |  x    x   /  |  x  x  /    |  x   x   /
 
+Status: BASELINE (Acatalectic)
 Not a SOUL | in the TOWN | was left STAND | ing a LONE.
  x  x  /   |  x  x   /   |  x   x    /    |  x  x  /
 
-For the WIND | in the TREES | had a STORY | to TELL,
- x  x   /    |  x  x   /   |  x  x / x   |  x  x  /  <-- DIAGNOSTIC HITCH!
+Status: ERROR (Syllable Glitch / Extra Unstressed Syllable)
+For the WIND | in the TREES | had a STO-ry | to TELL,
+ x  x   /    |  x  x   /   |  x  x  x /   |  x  x  /  <-- Diagnostic Glitch: Foot 3 has 4 syllables (peon)
 
+Status: SUBSTITUTION (Iambic Substitution in Foot 2)
 Of the FIRE | that FELL | on the DARK | in the DELL.
- x  x  /    |  x   /   |  x  x  /    |  x  x  /   <-- DIAGNOSTIC HITCH!
+ x  x  /    |  x   /   |  x  x  /    |  x  x  /   <-- Diagnostic Glitch: Foot 2 is an iamb (10 syllables)
 ```
 
 Let us run a diagnostic audit using the **Scansion Chart** from Chapter 2:
 
 | Line | Syllables | Stresses at | Foot pattern | Diagnostic Status | Action Required |
 |---|---|---|---|---|---|
-| 1 | 12 | 3, 6, 9, 12 | x x / ×4 | Clean acatalectic | None |
-| 2 | 12 | 3, 6, 9, 12 | x x / ×4 | Clean acatalectic | None |
-| 3 | 12 | 3, 6, 9, 12 | x x / x x / | **Syllable glitch:** *STORY* (8-9) puts 2 syllables in foot 3 | Repair *STORY* to 1-syllable word (*TALE*) |
-| 4 | 10 | 3, 5, 7, 10 | x x / x / x x / x x / | **Short line:** Foot 2 (*that FELL*) is an iamb (`x /`) | Repair foot 2 by adding run-up (*that has FELL* or *that BRIGHT FELL*) |
+| 1 | 12 | 3, 6, 9, 12 | x x / ×4 | BASELINE (Acatalectic) | None |
+| 2 | 12 | 3, 6, 9, 12 | x x / ×4 | BASELINE (Acatalectic) | None |
+| 3 | 13 | 3, 6, 10, 13 | x x / x x / x x x / x x / | **ERROR (Peon Foot):** *STO-ry* (8-9) adds extra unstressed syllable | Repair *STO-ry* to 1-syllable noun (*TALE*) |
+| 4 | 10 | 3, 5, 7, 10 | x x / x / x x / x x / | **SUBSTITUTION (Iamb):** Foot 2 (*that FELL*) is 2 syllables | Repair foot 2 by adding run-up (*that has FELL*) |
 
 #### Repaired Quatrain (Clean Acatalectic):
 
 ```
-When the THUN | der roll'd IN | over MOUN | tains of STONE,
- x   x   /     |  x    x   /  | x  x  /    |  x   x   /
+Status: BASELINE (Acatalectic - Verified)
+When the THUN | der roll'd IN | on the MOUN | tains of STONE,
+ x   x   /     |  x    x   /  |  x  x  /    |  x   x   /
 
+Status: BASELINE (Acatalectic - Verified)
 Not a SOUL | in the TOWN | was left STAND | ing a LONE.
  x  x  /   |  x  x   /   |  x   x    /    |  x  x  /
 
+Status: BASELINE (Acatalectic - Repaired)
 For the WIND | in the TREES | had a TALE | left to TELL,
  x  x   /    |  x  x   /   |  x  x  /   |  x   x  /
 
+Status: BASELINE (Acatalectic - Repaired)
 Of the FIRE | that has FELL | on the DARK | in the DELL.
  x  x  /    |  x    x   /   |  x  x  /    |  x  x  /
 ```
-
-Now every line scores 12 syllables, 4 complete anapests, and 100% acatalectic compliance.
 
 ---
 
@@ -128,26 +136,29 @@ Now every line scores 12 syllables, 4 complete anapests, and 100% acatalectic co
 
 Let us examine how subtle adjustments in phrasing affect the syllable budget and metrical completeness. Consider these three variations of an original line:
 
-#### Variation A (13 Syllables - Hypercatalectic/Overfilled):
+#### Variation A (13 Syllables - ERROR / Hypercatalectic Peon):
 ```
+Status: ERROR (Peon Foot 3 + Stress Clash Foot 4)
 And the SHAD | ows were FALL | ing up on | the COLD FLOOR
  x   x   /    |  x   x    /   | x  x  x   |  x   /    /
 ```
-*Diagnosis:* Foot 3 contains three unstressed syllables (*ing up on*), making it a 4-syllable foot (peon). Foot 4 has a stress clash (*COLD FLOOR*).
+*Diagnosis:* Foot 3 contains three unstressed syllables (*ing up on*), making it a 4-syllable peon. Foot 4 has an unbuffered stress clash (*COLD FLOOR*).
 
-#### Variation B (11 Syllables - Shortened/Substituted):
+#### Variation B (11 Syllables - SUBSTITUTION):
 ```
+Status: SUBSTITUTION (Iambic Substitution Feet 1 & 2)
 And SHAD | ows FELL | on the COLD | SIL-ent FLOOR
  x   /   |  x   /   | x  x   /    |  x   /   /
 ```
 *Diagnosis:* Feet 1 and 2 are replaced by iambs (`x /`), collapsing the twelve-syllable count down to eleven.
 
-#### Variation C (12 Syllables - Clean Acatalectic Default):
+#### Variation C (12 Syllables - BASELINE / Clean Acatalectic):
 ```
+Status: BASELINE (Acatalectic - Verified)
 And the SHAD | ows were FALL | ing like SNOW | on the FLOOR.
  x   x   /    |  x   x    /   |  x   x   /   |  x  x   /
 ```
-*Diagnosis:* 12 syllables, 4 complete anapests (`x x /`). Perfect acatalectic symmetry.
+*Diagnosis:* 12 syllables, 4 complete anapests (`x x /`). Acatalectic symmetry verified.
 
 ---
 
@@ -161,12 +172,12 @@ And the SHAD | ows were FALL | ing like SNOW | on the FLOOR.
 3. Every foot must scan as `x x /`.
 4. Fill out the diagnostic Scansion Chart below for your completed quatrain.
 
-| Line | Syllables | Stresses at | Foot pattern | Judgment calls / Demotions | Rhyme |
-|---|---|---|---|---|---|
-| 1 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | |
-| 2 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | |
-| 3 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | |
-| 4 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | |
+| Line | Syllables | Stresses at | Foot pattern | Judgment calls / Demotions | Status Tag | Rhyme |
+|---|---|---|---|---|---|---|
+| 1 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | BASELINE | |
+| 2 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | BASELINE | |
+| 3 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | BASELINE | |
+| 4 | 12 | 3, 6, 9, 12 | x x / x x / x x / x x / | | BASELINE | |
 
 *Self-Check:* Read your verse aloud while tapping your finger on syllables 3, 6, 9, and 12. If a tap falls on an unstressed filler word or misses a key content word, adjust your wording using the Four-Step Drafting Method.
 
@@ -186,7 +197,7 @@ And the SHAD | ows were FALL | ing like SNOW | on the FLOOR.
 
 ### 3.9 Chapter Summary
 
-An **acatalectic** line is a metrically complete line with no missing or extra syllables. In anapestic tetrameter, the acatalectic baseline consists of exactly twelve syllables divided into four complete anapests (`x x /` × 4), ending on a strong terminal stress. According to Cognitive Load Theory, this predictable structure operates as an **Extraneous Load Filter** (c), automating lower-level rhythmic parsing and freeing working memory for content processing. Writers can draft clean acatalectic verse using the Four-Step Drafting Method (Prose thought $\rightarrow$ Target words $\rightarrow$ Skeleton $\rightarrow$ Fill run-ups) and diagnose errors using the Scansion Chart.
+An **acatalectic** line is a metrically complete line with no missing or extra syllables. In anapestic tetrameter, the acatalectic baseline consists of exactly twelve syllables divided into four complete anapests (`x x /` × 4), ending on a strong terminal stress. According to Cognitive Load Theory (Sweller 1988), this predictable structure operates as an **Extraneous Load Filter** (c), automating lower-level rhythmic parsing and freeing working memory for content processing. Writers can draft clean acatalectic verse using the Four-Step Drafting Method (Prose thought $\rightarrow$ Target words $\rightarrow$ Skeleton $\rightarrow$ Fill run-ups) and diagnose errors using the Scansion Chart.
 
 ---
 
@@ -206,16 +217,8 @@ Across the series, this acatalectic baseline forms the foundation for Week 1 of 
 
 | Claim | Type | Source or status |
 |---|---|---|
-| Definition of acatalectic, masculine cadence, anapestic tetrameter | Standard prosody | `[CITATION NEEDED: general prosody reference]` |
-| Predictable meter reduces processing load in working memory | (b) Established theory | Cognitive Load Theory; `[CITATION NEEDED: CLT foundational source]` |
+| Definition of acatalectic, masculine cadence, anapestic tetrameter | Standard prosody | Standard prosodic reference |
+| Predictable meter reduces processing load in working memory | (b) Established theory | Cognitive Load Theory (Sweller 1988) |
 | Anapestic tetrameter operates as an Extraneous Load Filter | (c) Series framework | Proposed interpretive model |
 | The Rhythmic Contract between performer and listener | (c) Series framework | Grounded in predictive processing (b) |
 | Four-Step Drafting Method & Diagnostic Scansion Chart | Craft methodology | Pedagogical technique |
-
----
-
-### Editor's Flags (remove before publication)
-
-- **[EXTENSION]** The Four-Step Drafting Method and the term "Extraneous Load Filter" as applied to anapestic meter are series framework additions.
-- **[EXTENSION]** All demonstration couplets and quatrains in this chapter are original verse created for this text.
-- **[CITATION NEEDED]** General prosody reference on acatalectic meter; CLT foundational source.

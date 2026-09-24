@@ -1,13 +1,18 @@
 # Book 3: Hyperrhyme Mapping
 ## Encoding Semantic Density
 
+*Document Classification: FULL-TEXT SYNOPSIS & CHAPTER MANUSCRIPTS*
+*Governing Document: `00-series-bible.md` (v1.0) | Continuity Ledger: `book3-ledger.md`*
+
+---
+
 ### Chapter 1: Phonological Priming and Semantic Search
 #### 1.1 Sound Invites Sense
 **Phonological priming** occurs when exposure to a sound sequence facilitates processing of acoustically similar words. In our framework, sound similarity *invites* (not *forces*, Bible §3.5) a search for semantic connection.
 #### 1.2 Acoustic Proximity and Semantic Linkage
 When two words share 3+ syllables of acoustic overlap, the brain actively seeks a conceptual relationship between them.
-#### 1.3 Theory: Spreading Activation Models
-Established theory holds that lexical memory is organized as a semantic network where acoustic similarity triggers spreading activation across related nodes.
+#### 1.3 Theory: Research, Established Theory, and Our Model
+*Firewall Statement:* Research demonstrates that acoustic similarity facilitates lexical access. Established theory proposes that semantic networks activate related nodes via spreading activation. Our framework interprets multisyllabic sound overlap as inviting semantic search without forcing logical connection.
 #### 1.4 Worked Examples: Single-Syllable vs Hyperrhyme Priming
 Comparing *cat/hat* (1 syllable) with *generously / courageously* (4-syllable hyperrhyme).
 #### 1.5 Exercise: Priming Connection Drill
@@ -15,11 +20,11 @@ Given 3 hyperrhyme pairs, identify 2 semantic links invited by their shared acou
 #### 1.6 Common Mistakes
 Asserting that sound similarity forces a mandatory logical connection (over-claiming).
 #### 1.7 Chapter Summary
-Phonological priming uses acoustic similarity to invite semantic association without forcing logic.
+Phonological priming uses acoustic similarity to invite semantic association without forcing logic within our model.
 #### 1.8 Cross-References
 $\rightarrow$ Book 1, Ch. 12; Book 3, Ch. 2.
 #### 1.9 Evidence Notes & Flags
-- Claim: Phonological priming invites semantic search | Type (b) Established cognitive psychology; claim (c) Series framework.
+- Claim: Phonological priming invites semantic search | Type (b) Established cognitive psychology; claim (c) Series framework model.
 
 ---
 
@@ -44,7 +49,7 @@ The Hyperrhyme Matrix evaluates 3+ syllable rhymes for metrical fidelity, acoust
 #### 2.8 Cross-References
 $\rightarrow$ Book 3, Ch. 1; Book 3, Ch. 7.
 #### 2.9 Evidence Notes & Flags
-- Claim: Hyperrhyme Matrix criteria | Type (c) Series framework.
+- Claim: Hyperrhyme Matrix criteria | Type (c) Series framework model.
 
 ---
 
@@ -54,7 +59,7 @@ Working memory consists of the **Central Executive** (attention control) and the
 #### 3.2 Resolving Issue I-16: Component Precision
 Resolving Source-Issue I-16: The Phonological Loop comprises the *phonological store* (passive speech-sound retention) and the *articulatory rehearsal process* (the inner voice). It is not "the inner voice of conscious awareness" in general, but the speech-retention loop.
 #### 3.3 Theory: The 2-Second Time Capacity Limit
-The Phonological Loop holds approximately 2 seconds of spoken material before decay, setting a hard boundary on hyperrhyme length.
+The Phonological Loop holds approximately 2 seconds of spoken material before decay, setting a hard boundary on hyperrhyme length (Baddeley 1986).
 #### 3.4 Worked Examples: Mapping Hyperrhymes inside the 2-Second Window
 Demonstrating how a 4-syllable hyperrhyme fits within the 2-second rehearsal cycle.
 #### 3.5 Exercise: Loop Capacity Calculation
@@ -66,7 +71,7 @@ The Phonological Loop holds speech sounds via articulatory rehearsal within a 2-
 #### 3.8 Cross-References
 $\rightarrow$ Book 1, Ch. 8; Book 3, Ch. 9.
 #### 3.9 Evidence Notes & Flags
-- Claim: Baddeley Working Memory Model & Phonological Loop | Type (b) Established psychology (Bible §8, I-16).
+- Claim: Baddeley Working Memory Model & Phonological Loop | Type (b) Established psychology (Baddeley 1986; Bible §8, I-16).
 
 ---
 
@@ -76,7 +81,7 @@ Internal rhyme places rhyming elements within a single line rather than at line 
 #### 4.2 Slot Placement: Run-ups vs. Stresses
 Internal hyperrhymes can sit inside run-up slots (`x x`) or land across primary stresses (`/`).
 #### 4.3 Theory: Dual-Landing Expectation
-Internal hyperrhymes create mid-line prediction landings, doubling the Satisfaction Cycle frequency.
+Internal hyperrhymes create mid-line prediction landings, doubling the Satisfaction Cycle frequency within our model.
 #### 4.4 Worked Examples: Mid-Line Hyperrhyme Scansion
 Scanning a line with mid-line hyperrhymes (*GEN-er-ous-ly* / *DAN-ger-ous-ly*).
 #### 4.5 Exercise: Internal Rhyme Placement Drill
@@ -88,7 +93,7 @@ Internal hyperrhyme architecture places multi-syllabic rhymes inside run-up or s
 #### 4.8 Cross-References
 $\rightarrow$ Book 1, Ch. 2; Book 3, Ch. 2.
 #### 4.9 Evidence Notes & Flags
-- Claim: Internal hyperrhyme architecture | Type (c) Series framework.
+- Claim: Internal hyperrhyme architecture | Type (c) Series framework model.
 
 ---
 
@@ -117,8 +122,17 @@ $\rightarrow$ Book 1, Ch. 3; Book 3, Ch. 7.
 ### Chapter 6: Near-Rhyme and Acoustic Precision
 #### 6.1 Exact vs. Slant / Near-Rhyme
 Near-rhyme (slant rhyme) matches vowel sounds while varying consonants, expanding vocabulary range.
-#### 6.2 Resolving Issue I-05: Critical Case Analysis
-Resolving Source-Issue I-05: *generously / courageously* provides a strong stress-matched near-rhyme, whereas *calculating / vital administration* is a loose near-rhyme match due to stress shifts (cal-cu-LA-ting vs. ad-MIN-is-TRA-tion). Loose matches must be labeled as such.
+#### 6.2 Resolving Issue I-05: Technical Hyperrhyme Matrix Breakdown
+Resolving Source-Issue I-05: *generously / courageously* provides a strong stress-matched near-rhyme, whereas *calculating / vital administration* is a loose near-rhyme match due to stress shifts (cal-cu-LA-ting vs. ad-MIN-is-TRA-tion).
+
+```
+Technical Hyperrhyme Segment Audit:
+1. generously (/dʒɛn-ə-rəs-li/): 4 syllables, primary stress on syl 1
+2. courageously (/kə-reɪ-dʒəs-li/): 4 syllables, matching /dʒəs-li/ suffix closure
+3. calculating (/kæl-kjə-leɪ-tɪŋ/): 4 syllables, stress on syl 3
+4. administration (/æd-mɪn-ɪ-streɪ-ʃən/): 5 syllables, stress on syl 4 (Loose Match)
+```
+
 #### 6.3 Theory: Feature Matching in Auditory Cortex
 Phonetic feature overlap (vowel height, place of articulation) governs perceived rhyme strength.
 #### 6.4 Worked Examples: Audit of Loose vs. Tight Near-Rhymes
@@ -138,13 +152,28 @@ $\rightarrow$ Book 3, Ch. 2; Book 3, Ch. 7.
 
 ### Chapter 7: The Chronometric System Verse (4-Line Full Text)
 #### 7.1 The Complete Chronometric Text
-Resolving Source-Issue I-13: Presenting the complete 4-line Chronometric hyperrhyme verse.
-#### 7.2 Full Text Scansion and Hyperrhyme Audit
+Resolving Source-Issue I-13: Presenting the complete 4-line Chronometric hyperrhyme verse with technical phoneme breakdowns.
+#### 7.2 Full Text Scansion and Technical Hyperrhyme Breakdown
 ```
 Line 1: With a CHRO-NO-MET-ric SYS-tem in a GEN-er-ous-ly GOV-erned ZONE,
+- Syllable sequence: 17 syllables
+- Phoneme matching: /dʒɛn-ə-rəs-li/ (generously)
+- Stress pattern: x x / x x / x x / x x /
+
 Line 2: We are COUR-age-ous-ly STAND-ing where the DAN-ger-ous-ly DARK was SHOWN.
+- Syllable sequence: 17 syllables
+- Phoneme matching: /kə-reɪ-dʒəs-li/ (courageously) & /deɪn-dʒə-rəs-li/ (dangerously)
+- Stress pattern: x x / x x / x x / x x /
+
 Line 3: Though the CAL-cu-lat-ing POW-ers of a VITAL AD-MIN-IS-TRA-TION CALL,
+- Syllable sequence: 18 syllables
+- Phoneme matching: /kæl-kjə-leɪ-tɪŋ/ & /æd-mɪn-ɪ-streɪ-ʃən/
+- Stress pattern: Loose match case (Issue I-05)
+
 Line 4: We can ELE-VATE the MEAS-URE till the SHAD-OWS of the FOE shall FALL.
+- Syllable sequence: 17 syllables
+- Phoneme matching: /ɛl-ə-veɪt/ & /mɛʒ-ər/
+- Stress pattern: x x / x / x x / x x /
 ```
 #### 7.3 Theory: Hyperrhyme and Memory Consolidation
 Packing 4-syllable hyperrhymes into an anapestic grid maximizes dual-coding recall and acoustic stickiness.
@@ -159,7 +188,7 @@ The Chronometric System verse provides a master template for 4-syllable hyperrhy
 #### 7.8 Cross-References
 $\rightarrow$ Book 1, Ch. 12; Book 3, Ch. 2.
 #### 7.9 Evidence Notes & Flags
-- Claim: Chronometric System verse framework | Type (c) Series framework (Bible I-13).
+- Claim: Chronometric System verse framework | Type (c) Series framework model (Bible I-13).
 
 ---
 
@@ -169,7 +198,7 @@ Mapping 3+ syllable hyperrhymes onto Book 2's 16th-subdivision beat-grid.
 #### 8.2 Syncopated Hyperrhyme Placement
 Placing hyperrhyme stress syllables onto displaced 16th-note grid slots (e.g., slot 03, 07, 11, 15).
 #### 8.3 Theory: Multidimensional Entrainment
-Combining hyperrhyme acoustic priming with syncopated grid displacement creates dual-channel entrainment.
+Combining hyperrhyme acoustic priming with syncopated grid displacement creates dual-channel entrainment within our model.
 #### 8.4 Worked Examples: Monospace Grid Table with Hyperrhymes
 16-subdivision grid mapping of *GEN-er-ous-ly* / *COUR-age-ous-ly*.
 #### 8.5 Exercise: Grid Hyperrhyme Drafting
@@ -181,7 +210,7 @@ Hyperrhymes map cleanly onto 16th-subdivision grids, combining acoustic and temp
 #### 8.8 Cross-References
 $\rightarrow$ Book 2, Ch. 1; Book 3, Ch. 2.
 #### 8.9 Evidence Notes & Flags
-- Claim: Beat-grid hyperrhyme mapping | Type (c) Series framework.
+- Claim: Beat-grid hyperrhyme mapping | Type (c) Series framework model.
 
 ---
 
@@ -203,7 +232,7 @@ High semantic density requires strict metrical coherence to prevent working memo
 #### 9.8 Cross-References
 $\rightarrow$ Book 1, Ch. 8; Book 3, Ch. 3.
 #### 9.9 Evidence Notes & Flags
-- Claim: Cognitive load balancing in hyperrhyme | Type (c) Series framework.
+- Claim: Cognitive load balancing in hyperrhyme | Type (c) Series framework model.
 
 ---
 
@@ -226,4 +255,4 @@ Book 3 completes the phonological and semantic architecture of the series, handi
 #### 10.8 Cross-References
 $\rightarrow$ Book 4, Ch. 1; Book 5, Week 4.
 #### 10.9 Evidence Notes & Flags
-- Claim: Series architecture integration | Type (c) Series framework.
+- Claim: Series architecture integration | Type (c) Series framework model.

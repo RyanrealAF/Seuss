@@ -1,5 +1,10 @@
 # Book 5: Instructor's Chapter: Designing a 6-Week Workshop on Rhythmic Transfer
 
+*Document Classification: FULL-TEXT SYNOPSIS & CHAPTER MANUSCRIPTS*
+*Governing Document: `00-series-bible.md` (v1.0) | Continuity Ledger: `book5-ledger.md`*
+
+---
+
 ### Chapter 1: Pedagogy Architecture and the Recognition-to-Transfer Pipeline
 #### 1.1 The Recognition-to-Transfer Pipeline
 The **Recognition-to-Transfer pipeline** is this series' teaching sequence: moving learners from recognizing a childhood-familiar rhythmic schema (Recognition) to analyzing its scansion (Scansion), manipulating its line-shapes (Manipulation), and transferring it across new genres and applications (Transfer).
@@ -8,20 +13,20 @@ The **Recognition-to-Transfer pipeline** is this series' teaching sequence: movi
 ```
 #### 1.2 Target Audiences
 Designed for working MCs, adult learners, community arts educators, and university instructors.
-#### 1.3 Theory: Schema Transfer and Adult Learning
-Adult learning theory (andragogy) demonstrates that leveraging familiar childhood schemas lowers anxiety and accelerates new skill acquisition.
+#### 1.3 Theory: Research, Established Theory, and Our Model
+*Firewall Statement:* Research demonstrates that schema activation accelerates skill acquisition. Established andragogical theory proposes that leveraging adult prior knowledge lowers learning anxiety. Our model sequences rhythmic pedagogy through this 4-stage pipeline.
 #### 1.4 Worked Examples: Pipeline Diagnostic Assessment
-A diagnostic diagnostic placement rubric to evaluate a participant's entry point along the 4-stage pipeline.
+A diagnostic placement rubric to evaluate a participant's entry point along the 4-stage pipeline.
 #### 1.5 Exercise: Pipeline Mapping Drill
 Map a participant's verse snippet to identify their current stage in the Recognition-to-Transfer pipeline.
 #### 1.6 Common Mistakes
 Skipping the Scansion stage and pushing participants directly into complex Transfer drills.
 #### 1.7 Chapter Summary
-The Recognition-to-Transfer pipeline sequences rhythmic pedagogy from schema recognition to cross-genre transfer.
+The Recognition-to-Transfer pipeline sequences rhythmic pedagogy from schema recognition to cross-genre transfer within our instructional model.
 #### 1.8 Cross-References
 $\rightarrow$ Book 1, Ch. 1; Book 5, Ch. 2–7.
 #### 1.9 Evidence Notes & Flags
-- Claim: Recognition-to-Transfer pipeline | Type (c) Series framework.
+- Claim: Recognition-to-Transfer pipeline | Type (c) Series framework model.
 
 ---
 
@@ -33,8 +38,8 @@ Participants identify anapestic tetrameter by ear, master syllable counting, and
 - **20–45m:** Scansion Manual & Syllable Ladder Practice (Ch. 2 grid).
 - **45–75m:** Drafting 4-Line Acatalectic Stanzas (Ch. 3 Four-Step Method).
 - **75–90m:** $RC_{foot}$ Self-Audit and Peer Review.
-#### 2.3 Theory: Low-Cognitive-Load Onboarding
-Keeping initial examples strictly acatalectic minimizes extraneous cognitive load during Week 1.
+#### 2.3 Theory: Research vs. Model
+*Firewall Statement:* Research demonstrates that predictable temporal patterns automate parsing. Established theory proposes that low-cognitive-load onboarding prevents working memory exhaustion. Our model uses acatalectic drafting in Week 1.
 #### 2.4 Worked Examples: Week 1 Student Deliverable & Audit
 A student-drafted 4-line verse with full scansion audit scoring 100% $RC_{foot}$.
 #### 2.5 Exercise: Week 1 Deliverable Assignment
@@ -42,11 +47,11 @@ Draft a 4-line acatalectic anapestic quatrain with complete scansion table.
 #### 2.6 Common Mistakes
 Allowing extra syllables in Week 1 before baseline stability is established.
 #### 2.7 Chapter Summary
-Week 1 establishes metrical recognition and clean acatalectic drafting ($RC_{foot} \ge 80\%$).
+Week 1 establishes metrical recognition and clean acatalectic drafting ($RC_{foot} \ge 80\%$) in our curriculum model.
 #### 2.8 Cross-References
 $\rightarrow$ Book 1, Ch. 1–3; Book 5, Ch. 8.
 #### 2.9 Evidence Notes & Flags
-- Claim: Week 1 curriculum design | Type (c) Series framework.
+- Claim: Week 1 curriculum design | Type (c) Series framework model.
 
 ---
 
@@ -71,7 +76,7 @@ Week 2 maps speech feet onto 16th-subdivision beat-grids, isolating anacrusis pi
 #### 3.8 Cross-References
 $\rightarrow$ Book 2, Ch. 1–2; Book 5, Ch. 8.
 #### 3.9 Evidence Notes & Flags
-- Claim: Week 2 grid pedagogy | Type (c) Series framework.
+- Claim: Week 2 grid pedagogy | Type (c) Series framework model.
 
 ---
 
@@ -96,7 +101,7 @@ Week 3 trains participants to execute accumulation builds while preserving metro
 #### 4.8 Cross-References
 $\rightarrow$ Book 2, Ch. 4–5; Book 5, Ch. 8.
 #### 4.9 Evidence Notes & Flags
-- Claim: Week 3 accumulation pedagogy | Type (c) Series framework.
+- Claim: Week 3 accumulation pedagogy | Type (c) Series framework model.
 
 ---
 
@@ -121,7 +126,7 @@ Week 4 applies the Hyperrhyme Matrix to evaluate 3+ syllable rhymes for metrical
 #### 5.8 Cross-References
 $\rightarrow$ Book 3, Ch. 2, Ch. 7; Book 5, Ch. 8.
 #### 5.9 Evidence Notes & Flags
-- Claim: Week 4 hyperrhyme pedagogy | Type (c) Series framework.
+- Claim: Week 4 hyperrhyme pedagogy | Type (c) Series framework model.
 
 ---
 
@@ -171,32 +176,32 @@ Week 6 synthesizes all workshop modules through live capstone performances and p
 #### 7.8 Cross-References
 $\rightarrow$ Book 1–4; Book 5, Ch. 8.
 #### 7.9 Evidence Notes & Flags
-- Claim: Capstone synthesis framework | Type (c) Series framework.
+- Claim: Capstone synthesis framework | Type (c) Series framework model.
 
 ---
 
 ### Chapter 8: The Master 30/30/25/15 Rubric and Assessment Guide
 #### 8.1 Resolving Issue I-03: The Weighted Rubric
-Resolving Source-Issue I-03: Resolving placeholder "SOURCE_IMAGE_1" by providing the weighted **30/30/25/15 assessment rubric**.
+Resolving Source-Issue I-03: Resolving placeholder "SOURCE_IMAGE_1" by providing the weighted **30/30/25/15 assessment rubric** as an explicit instructional evaluation framework created by this series (not an objectively validated psychometric instrument).
 #### 8.2 The Master Rubric Structure
 1. **Metrical Fidelity & Grid Coherence (30%):** $RC_{foot} \ge 80\%$ and $RC_{grid} \ge 80\%$.
 2. **Analytical Depth & Structural Control (30%):** Hyperrhyme Matrix compliance and cognitive load balancing.
 3. **Portability & Cross-Genre Transfer (25%):** Versatility across Boom-Bap, Drill, and Trap delivery modes.
 4. **Equity, Accessibility & Ethical Reflection (15%):** Ethical reflection on tool vs. ideology, UDL alignment, and absence of slurs.
-#### 8.3 Theory: Objective Assessment in Rhyme Pedagogy
-Providing quantitative metrics ($RC_{foot}$, $RC_{grid}$, Matrix scores) removes subjective bias from verse grading.
+#### 8.3 Theory: Reproducible Assessment in Verse Pedagogy
+Providing quantitative metrics ($RC_{foot}$, $RC_{grid}$, Matrix scores) makes evaluation criteria explicit and reproducible across instructors.
 #### 8.4 Worked Examples: Scored Student Rubric Sheet
 A fully filled-out evaluation sheet scoring a student capstone portfolio at 94% (Exemplary).
 #### 8.5 Exercise: Peer Rubric Scoring Drill
 Score a sample capstone portfolio using the master 30/30/25/15 rubric sheet.
 #### 8.6 Common Mistakes
-Grading verse based on personal genre preference rather than objective $RC$ coherence scores.
+Assuming that quantitative rubric metrics remove subjective aesthetic judgment rather than making evaluation criteria explicit.
 #### 8.7 Chapter Summary
-The 30/30/25/15 rubric provides an objective, transparent assessment system for rhythmic verse.
+The 30/30/25/15 rubric provides an explicit, transparent assessment system for rhythmic verse within our workshop model.
 #### 8.8 Cross-References
 $\rightarrow$ Book 5, Ch. 2–7.
 #### 8.9 Evidence Notes & Flags
-- Claim: 30/30/25/15 weighted assessment rubric | Type (c) Series framework (Bible §8, I-03).
+- Claim: 30/30/25/15 weighted assessment rubric | Type (c) Series framework model (Bible §8, I-03).
 
 ---
 
@@ -220,7 +225,7 @@ UDL integration ensures rhythmic pedagogy is accessible to all learners through 
 #### 9.8 Cross-References
 $\rightarrow$ Book 5, Ch. 1–8.
 #### 9.9 Evidence Notes & Flags
-- Claim: UDL alignment in verse pedagogy | Type (c) Series framework.
+- Claim: UDL alignment in verse pedagogy | Type (c) Series framework model.
 
 ---
 
@@ -244,4 +249,4 @@ The Field Manual equips instructors to resolve classroom challenges, uphold ethi
 #### 10.8 Cross-References
 $\rightarrow$ Book 1–5 Synthesis.
 #### 10.9 Evidence Notes & Flags
-- Claim: Instructor field troubleshooting guide | Type (c) Series framework.
+- Claim: Instructor field troubleshooting guide | Type (c) Series framework model.

@@ -3,7 +3,7 @@
 
 **Version 1.0 · Status: Verified Governing System · Governs all five books**
 
-This document is the single source of truth for terminology, evidence handling, notation, and continuity across the series. Every chapter in every book is drafted against it.
+This document is the single source of truth for terminology, evidence handling, notation, and continuity across the series. Every chapter in every book is drafted against it. When a book needs to change a rule here, the change is made here first and logged in Section 9.
 
 Two kinds of marks appear in draft manuscripts. **Reader-facing labels** (Section 3) stay in the published text. **Editor-facing flags** (Section 3.3) are bracketed tags such as `[CITATION NEEDED: topic]` that must be resolved or removed before publication.
 
@@ -64,6 +64,19 @@ And the WAVES | have a WORD | that is MEANT | just for ME.
 - **Quoting Seuss and real artists.** Short excerpts only: a single line or fragment (15 words or fewer), never a full verse or stanza, and always analyzed by description. Never reproduce full lyrics.
 - **No slurs**, anywhere, including in analysis of real lyrics. Describe such material rather than quoting it.
 - **Terms.** Bold on first use, defined in the sentence where they first appear, and listed in the chapter's glossary entry.
+- **Form.** Tables for comparisons, scansion blocks for meter, continuous prose otherwise.
+
+### 2.4 Chapter anatomy (every chapter, every book)
+
+1. Opening scene or hook
+2. Core concept
+3. The theory behind it, with evidence labels
+4. At least two worked examples with full scansion or beat-grid mapping
+5. A hands-on exercise
+6. Common mistakes
+7. Chapter summary
+8. Pointers to related chapters in other books
+9. *Evidence Notes* (end-of-chapter table, Section 3.2)
 
 ---
 
@@ -80,6 +93,39 @@ And the WAVES | have a WORD | that is MEANT | just for ME.
 ### 3.2 End-of-chapter Evidence Notes
 
 Each chapter ends with a short table: **Claim · Type (a/b/c) · Source or status**. This keeps the running prose continuous while letting a reader audit every claim.
+
+### 3.3 Editor-facing flags (must be cleared before publication)
+
+| Flag | Meaning | Cleared by |
+|---|---|---|
+| `[CITATION NEEDED: topic]` | A claim that needs a source; none is supplied in the project files | Author supplies a verified source, or the claim is softened or cut |
+| `[VERIFY: item]` | A detail taken from the source files that should be checked against its original | Author checks |
+| `[EXTENSION]` | Material added beyond the source files | Author approves or removes |
+| `[DECISION: item]` | A choice that needs the author | Author decides |
+
+### 3.4 Standing caveat: Miller & Schwanenflugel (2008)
+
+Wherever this study is used, the text must carry, in some form, this statement:
+
+> Miller and Schwanenflugel (2008) studied reading prosody in early-elementary children reading aloud. They did not study rap, adult performers, or verse composition. Where this book applies their terms to performance, it is extending the construct by analogy, and the extension is this series' own.
+
+### 3.5 Claim register (key claims and how each is handled)
+
+| Claim | Type | Handling |
+|---|---|---|
+| Reduced pausal intrusions in Grade 1 predict adult-like intonation contour in Grade 2; intonation contour predicts later fluency beyond word reading | (a) | M&S caveat; verified details |
+| Working memory is limited; load has three types (CLT) | (b) | Sourced (Sweller 1988) |
+| Neural oscillations synchronize with an external pulse (entrainment) | (b) | Sourced (Large & Jones 1999) |
+| Entrainment coordinates auditory cortex and hippocampus, cementing memory | (b), unverified as stated | Hedge; treated as series analogy |
+| Brain minimizes prediction error (predictive processing) | (b) | Sourced (Friston 2005, Clark 2013) |
+| Dual-coding aids retrieval | (b) | Sourced (Paivio 1971); applying it to *rhythm* is (c) |
+| Working-memory model (Central Executive, Phonological Loop) | (b) | Sourced (Baddeley 1986); Issue I-16 resolved |
+| Anapestic meter acts as an Extraneous Load Filter | (c) | CLT is (b); this application is untested in rap |
+| Satisfaction Cycle; "Dopamine Error" / dopamine reward | (c) | Neurochemical wording is a metaphor |
+| Drill's "weaponized satisfaction cycle"; genre roles (Stabilizer, Subverter, Compressor) | (c) | Never attribute intent to named artists without a source |
+| Sound similarity "forces" a semantic link (phonological priming) | priming (b); "forces" (c) | Softened to "invites" |
+| Childhood exposure to anapestic rhythm is widespread | empirical | Softened to "widespread in English-language children's verse" |
+| Legacy Engine; Metrical Mandate; Sonic GPS; Neural Stickiness; Portability | (c) | Labeled as framework models |
 
 ---
 
@@ -126,7 +172,22 @@ Each chapter ends with a short table: **Claim · Type (a/b/c) · Source or statu
 
 ---
 
-## 5. Continuity protocol
+## 5. Example bank
+
+| Example | Source | Home book | Status and action |
+|---|---|---|---|
+| Specimen couplet ("In the MORN \| ing I WALK…") | This bible | Book 1 | Original; opens Book 1 |
+| "In the LAND \| of the LOST…" (Grit Gospel 16-bar arc) | Books 2, 4 | Book 2 | Full 16-bar verse complete (Bible I-13) |
+| Grit Gospel four-act arc (Stability, Tension, Climax, Resolution) | Book 2 | Book 2 | Framework (c) |
+| Chronometric System verse (4 lines) | Books 3, 4 | Book 3 | Complete 4 lines audited; loose hyperrhyme analyzed (I-05, I-13) |
+| *generously / courageously* | Evaluation, Book 3 | Book 3 | Stronger stress match than *calculating / administration* |
+| 16-line mnemonic | Book 1 | Book 1 | Fully audited and repaired (I-09) |
+| "Yertle" scansion | Books 1, 5 | Book 1 | Short attributed fragment (5 words) |
+| Boom-Bap / Drill / Trap comparison | Book 4 | Book 4 | Framework model (c) |
+
+---
+
+## 6. Continuity protocol
 
 - Each book keeps an active Continuity Ledger (`bookN-ledger.md`).
 - Terms are defined on first use and never redefined differently.
@@ -134,7 +195,7 @@ Each chapter ends with a short table: **Claim · Type (a/b/c) · Source or statu
 
 ---
 
-## 6. Seuss legacy protocol
+## 7. Seuss legacy protocol
 
 **Facts, stated plainly.** Six Dr. Seuss titles were discontinued by the publisher in 2021 because of racist and insensitive imagery (*Mulberry Street*, *If I Ran the Zoo*, *McElligot's Pool*, *On Beyond Zebra!*, *Scrambled Eggs Super!*, *The Cat's Quizzer*).
 
@@ -143,3 +204,38 @@ Each chapter ends with a short table: **Claim · Type (a/b/c) · Source or statu
 - No verse from withdrawn titles is used as an example.
 - Book 1 Ch. 11 states facts; Book 5 carries the full ethics module.
 - **Position:** *Separate the neutral cognitive tool from the author's ideology.* Moral responsibility rests entirely with the modern practitioner.
+
+---
+
+## 8. Source-issue log
+
+| ID | Where | Issue | Status & Handling |
+|---|---|---|---|
+| **I-01** | Books 1, 3, 4, 5 | Catalexis definition in rising meter | Resolved: Catalexis = shortened final foot + silent beat `∧` (Bible §2.2) |
+| **I-02** | All | Interchangeable terms (Mandate, Anchor, Hook) | Resolved: Locked definitions in Section 4 |
+| **I-03** | Book 5, rubric | Stray placeholder "SOURCE_IMAGE_1" | Resolved: Replaced with 30/30/25/15 rubric |
+| **I-04** | Evaluation vs Book 5 | Book 5 lacking UDL and legacy modules | Resolved: Fully integrated into Book 5 |
+| **I-05** | Books 3, 4 | Loose match *calculating / administration* | Resolved: Analyzed as explicit loose near-rhyme in Book 3 Ch. 6 |
+| **I-06** | Books 1, 2, 3 | M&S pausal intrusion vs artistic pause | Resolved: Pausal intrusion = disfluency; caesura = intentional pause |
+| **I-07** | Book 5 | Unsourced "Dopamine Reward" & 15–30 min practice | Resolved: Treated as series framework / practice plan |
+| **I-08** | Books 1, 5 | Verbatim Seuss excerpt length | Resolved: Fragment limit $\le 15$ words enforced |
+| **I-09** | Book 1, mnemonic | Mnemonic scansion errors (lines 5, 8, 14) | Resolved: Audited and rebuilt in Book 1 Ch. 12 |
+| **I-10** | Books 1, 2, 5 | Unsourced neuroscience claims | Resolved: Hedged; 3-tier firewall enforced |
+| **I-11** | Book 4 | Cognitive dissonance terminology | Resolved: Defined strictly as series metaphor |
+| **I-12** | All | Inconsistent book titles | Resolved: Unified in Series Map (Section 1) |
+| **I-13** | Books 2, 3 | Grit Gospel & Chronometric text incomplete | Resolved: Full 16-bar & 4-line texts written |
+| **I-14** | Book 2 | Additive synthesis terminology collision | Resolved: Lead with "Accumulation Method", list alias |
+| **I-15** | Book 1 | Table typo "x x / x 4" | Resolved: Corrected to (x x /) × 4 |
+| **I-16** | Book 3 | Phonological Loop definition precision | Resolved: Sourced to Baddeley (1986); store + rehearsal process |
+| **I-17** | Book 4 | Genre roles asserted without artist evidence | Resolved: Labeled as series framework models (c) |
+| **I-18** | Books 1, 4 | "Nearly universal" exposure claim | Resolved: Softened to "widespread in children's verse" |
+| **I-19** | Book 1, Ex 3 | Grammar commentary error | Resolved: Corrected in draft |
+
+---
+
+## 9. Change log
+
+| Version | Change |
+|---|---|
+| 0.1 | Initial bible built from source files |
+| 1.0 | Verified governing system: resolved Issues I-01 through I-19, established 3-tier science firewall, locked definitions, and unified series map |

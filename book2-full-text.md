@@ -1,12 +1,18 @@
 # Book 2: From Single Pulse to Layered Groove
 ## Designing Polyrhythmic Flows
 
+*Document Classification: FULL-TEXT SYNOPSIS & CHAPTER MANUSCRIPTS*
+*Governing Document: `00-series-bible.md` (v1.0) | Continuity Ledger: `book2-ledger.md`*
+
+---
+
 ### Chapter 1: Grid vs. Foot: Beat-Grid Mapping
 #### 1.1 The Metronome and the Page
 Imagine a producer in a digital audio workstation (DAW) placing 16th-note subdivisions on a grid. Scansion in Book 1 mapped feet (`x x /`). Book 2 translates speech feet onto a 16-subdivision musical grid.
 #### 1.2 The 16-Subdivision Monospace Grid
 A 4/4 measure consists of 4 main beats, each divided into 4 sixteenth notes (1-e-&-a, 2-e-&-a, 3-e-&-a, 4-e-&-a).
 ```
+Status: BASELINE (16th Beat-Grid)
 Subdivision: | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
 Beat:        | 1  |    | e  | a  | 2  |    | e  | a  | 3  |    | e  | a  | 4  |    | e  | a  |
 Specimen:    | In | the| MORN|    | ing| I  | WALK|    | to | the| BRDG|    | by | the| SEA |    |
@@ -122,6 +128,7 @@ $\rightarrow$ Book 2, Ch. 8; Book 5, Week 3.
 Act I (Bars 1–4) of the 16-bar "Grit Gospel" arc establishes absolute acatalectic stability (`x x /` × 4) on the 16th grid.
 #### 6.2 Grid Analysis of Bars 1–4
 ```
+Status: BASELINE (12 Syllables per bar)
 Bar 01: In the LAND | of the LOST | where the WIND | has no NAME  (12 Syllables)
 Bar 02: Every SOUL | in the DARK | is pur-SU | ing a FLAME    (12 Syllables)
 Bar 03: There is DUST | on the ROAD | where the TRAV | el-ers TREAD (12 Syllables)
@@ -149,10 +156,11 @@ $\rightarrow$ Book 1, Ch. 7; Book 2, Ch. 7.
 Act II (Bars 5–8) of the "Grit Gospel" arc introduces iambic substitution, anacrusis variation, and off-beat syncopation.
 #### 7.2 Grid Analysis of Bars 5–8
 ```
-Bar 05: The SHAD-ows | LEAP on the WALL | with a SUD | den ATTACK (11 Syllables)
-Bar 06: And THEY | keep DRAG | ging the FOOT | steps BACK       (9 Syllables - Heavy Syncopation)
-Bar 07: You can HEAR | the HEA-vy BEAT | on the COLD | STONE FLOOR (11 Syllables)
-Bar 08: As the CROWD | starts PUSH | ing a-GAINST | the DOOR     (10 Syllables - Terminal Rest)
+Status: SYNCOPATION & VARIATION
+Bar 05: The SHAD-ows | LEAP on the WALL | with a SUD | den ATTACK (11 Syllables - Substitution)
+Bar 06: And THEY | keep DRAG | ging the FOOT | steps BACK       (9 Syllables - Syncopation)
+Bar 07: You can HEAR | the HEA-vy BEAT | on the COLD | STONE FLOOR (11 Syllables - Stress Clash)
+Bar 08: As the CROWD | starts PUSH | ing a-GAINST | the DOOR     (10 Syllables - Catalexis)
 ```
 #### 7.3 Theory: Controlled Friction and Elasticity
 Act II expands metrical elasticity, shifting $RC_{grid}$ to 80% while driving emotional tension.
@@ -176,6 +184,7 @@ $\rightarrow$ Book 2, Ch. 6; Book 2, Ch. 8.
 Act III (Bars 9–12) deploys the Accumulation Method, rapidly increasing syllable density to 16–18 syllables per bar.
 #### 8.2 Grid Analysis of Bars 9–12
 ```
+Status: ACCUMULATION (Double-Time Density)
 Bar 09: And the RUSH | of the RIV-er in the MID-night HOUR is a STORM that is BREAK-ing the WALLS (18 Syllables)
 Bar 10: With a CRASH | in the THUN-der as the LIGHT-ning STRIKES and the HEA-vy-est TIM-ber FALLS (18 Syllables)
 Bar 11: So we RUN | through the FI-re with the HEAT at our BACK and the SMOKE in our EYES and LUNGS (18 Syllables)
@@ -203,6 +212,7 @@ $\rightarrow$ Book 2, Ch. 5; Book 2, Ch. 9.
 Act IV (Bars 13–16) resolves the tension and density of Acts II and III, returning cleanly to the acatalectic Anapestic Anchor.
 #### 9.2 Grid Analysis of Bars 13–16
 ```
+Status: RESOLUTION & BASELINE
 Bar 13: Now the MO- | ney lost VAL- | ue and the NOISE | died DOWN (11 Syllables)
 Bar 14: And a SI- | lent PEACE | came OVER | the TOWN           (10 Syllables)
 Bar 15: For the AN- | chor HOLDS | in the HEART | of the STORM    (11 Syllables)
