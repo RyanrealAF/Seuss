@@ -19,6 +19,7 @@ Treating subgenre roles as rigid musical genres rather than functional delivery 
 The Anapestic Anchor functions as Stabilizer, Subverter, or Compressor depending on subgenre context.
 #### 1.8 Cross-References
 $\rightarrow$ Book 1, Ch. 1; Book 4, Ch. 6.
+$\rightarrow$ Test the Anapestic Anchor across Boom-Bap, Drill, and Trap rhythm engines on [Hardwire](https://buildwhilebleeding.com/hardwire).
 #### 1.9 Evidence Notes & Flags
 - Claim: Genre functional roles | Type (c) Series framework (Bible §3.5).
 

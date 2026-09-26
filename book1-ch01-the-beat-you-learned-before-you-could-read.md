@@ -248,6 +248,8 @@ Within this book, Chapter 2 gives you the full scansion manual, including how to
 
 Across the series, Book 2 takes the four stresses per line and maps them onto a musical grid, where the run-up syllables acquire their technical name (anacrusis) and their timing. Book 3 explains why the rhyme word lands so powerfully on the final stress. Book 4 shows how different hip-hop subgenres treat the same skeleton as a stabilizer, a subverter, or a compressor. Book 5 turns this chapter into the first session of a six-week workshop.
 
+To practice scanning and manipulating anapestic metrical baselines interactively, visit [Hardwire](https://buildwhilebleeding.com/hardwire).
+
 ---
 
 ### Evidence Notes
