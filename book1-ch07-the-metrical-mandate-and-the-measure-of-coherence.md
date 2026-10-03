@@ -157,6 +157,8 @@ This chapter concludes **Part One: The Machine**.
 - **Part Two (The Mind):** Chapters 8–10 explore cognitive science, Cognitive Load Theory, neural entrainment, and reading prosody.
 - **Book 2 (Polyrhythms & Syncopation):** Expands $RC_{foot}$ into a 16-subdivision grid-level coherence metric ($RC_{grid}$).
 
+To audit foot-level metrical coherence interactively with real-time scoring, visit [Hardwire](https://buildwhilebleeding.com/hardwire).
+
 ---
 
 ### Evidence Notes

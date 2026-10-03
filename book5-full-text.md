@@ -20,6 +20,7 @@ Skipping the Scansion stage and pushing participants directly into complex Trans
 The Recognition-to-Transfer pipeline sequences rhythmic pedagogy from schema recognition to cross-genre transfer.
 #### 1.8 Cross-References
 $\rightarrow$ Book 1, Ch. 1; Book 5, Ch. 2–7.
+$\rightarrow$ Apply curriculum drills in the interactive rhythm workshop suite on [Hardwire](https://buildwhilebleeding.com/hardwire).
 #### 1.9 Evidence Notes & Flags
 - Claim: Recognition-to-Transfer pipeline | Type (c) Series framework.
 

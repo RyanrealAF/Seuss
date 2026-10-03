@@ -43,6 +43,7 @@ Sacrificing natural speech stress to force a 4-syllable match.
 The Hyperrhyme Matrix evaluates 3+ syllable rhymes for metrical fidelity, acoustic precision, and semantic variation.
 #### 2.8 Cross-References
 $\rightarrow$ Book 3, Ch. 1; Book 3, Ch. 7.
+$\rightarrow$ Evaluate multisyllabic rhyme density using the Hyperrhyme Matrix tool on [Hardwire](https://buildwhilebleeding.com/hardwire).
 #### 2.9 Evidence Notes & Flags
 - Claim: Hyperrhyme Matrix criteria | Type (c) Series framework.
 

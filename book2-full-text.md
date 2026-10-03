@@ -24,6 +24,7 @@ Confusing a 3-syllable speech foot with a 3-eighth-note triplet.
 Beat-grid transcription aligns foot scansion with 16th-note musical subdivisions.
 #### 1.8 Cross-References
 $\rightarrow$ Book 2, Ch. 2; Book 4, Ch. 1.
+$\rightarrow$ Practice beat-grid mapping in the 16th-subdivision interactive grid editor on [Hardwire](https://buildwhilebleeding.com/hardwire).
 #### 1.9 Evidence Notes & Flags
 - Claim: Beat-grid mapping of speech feet | Type (c) Series framework.
 
